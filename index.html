@@ -318,18 +318,25 @@
 
   <!-- Barra Superior Informativa -->
  <!-- Estructura responsive para la Topbar -->
+<!-- Barra Superior Informativa Corregida -->
 <div class="top-bar py-2 bg-primary text-white">
-  <div class="container d-flex flex-wrap justify-content-between align-items-center text-center text-md-start">
+  <div class="container d-flex flex-wrap justify-content-center justify-content-md-between align-items-center gap-2 text-center text-md-start">
     
-    <!-- Correo y Teléfono -->
-    <div class="d-flex align-items-center gap-3 mb-1 mb-md-0">
-      <span><i class="bi bi-envelope-fill me-1"></i> contacto@didacsoluciones.com</span>
-      <span class="d-none d-sm-inline">|</span>
-      <span><i class="bi bi-telephone-fill me-1"></i> +52 (55) 1234-5678</span>
+    <!-- Correo y Teléfono en blanco -->
+    <div class="d-flex align-items-center justify-content-center flex-wrap gap-3">
+      <a href="mailto:contacto@didacsoluciones.com" class="text-white text-decoration-none d-flex align-items-center gap-1">
+        <i class="bi bi-envelope-fill"></i>
+        <span>contacto@didacsoluciones.com</span>
+      </a>
+      <span class="text-white-50 d-none d-sm-inline">|</span>
+      <a href="tel:+525512345678" class="text-white text-decoration-none d-flex align-items-center gap-1">
+        <i class="bi bi-telephone-fill"></i>
+        <span>+52 (55) 1234-5678</span>
+      </a>
     </div>
 
     <!-- Atención Empresarial y Horario -->
-    <div class="d-flex align-items-center gap-2">
+    <div class="d-flex align-items-center justify-content-center gap-2 text-white">
       <i class="bi bi-clock-fill"></i>
       <span><strong>Atención Empresarial:</strong> Lun - Vie 9:00 a 18:00 hrs</span>
     </div>
